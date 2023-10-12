@@ -7,3 +7,7 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
+def filtered_names(name):
+    return 'am' in name.lower()
+
+print(list(filter(filtered_names, names)))
